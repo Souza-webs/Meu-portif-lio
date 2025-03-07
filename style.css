@@ -1,45 +1,48 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
     font-family: sans-serif;
 }
 
-h4 {
+h1 {
     text-align: center;
-    font-size: 30px;
-    margin: 30px;
-}
-
-.cima {
-    text-align: center;
-    margin-top: 50px;
+    font-size: 50px;
 }
 
 img {
     width: 200px;
     border-radius: 50%;
-    border: solid #8A2BE2;
+    border: solid 1px blueviolet;
 }
 
-/* From Uiverse.io by SteveBloX */ 
-button {
-    width: 150px;
-    height: 60px;
-    border: 3px solid #8A2BE2;
-    border-radius: 45px;
-    transition: all 0.5s;
-    cursor: pointer;
-    background: rgb(255, 255, 255);
-    font-size: 1.2em;
-    font-weight: 550;
-  }
-  
-  button:hover {
-    background: #8A2BE2;
-    color: white;
-    font-size: 1.4em;
-  }
-  
-.container {
+.perfil {
     text-align: center;
+    margin-top: 50px;
 }
+
+.tittle {
+    color: blueviolet;
+}
+
+.tittle2 {
+    color: gray;
+}
+
+.meio {
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+}
+
+button {
+    border: solid 1px blueviolet;
+    outline: none;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: blueviolet;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
